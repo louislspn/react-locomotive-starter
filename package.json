@@ -1,0 +1,21 @@
+{
+  "name": "react-starter",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "watch": "npm run clean; parcel watch index.html --public-url ./ --no-cache --no-hmr",
+    "build": "npm run clean; parcel build index.html --public-url ./ --no-source-maps",
+    "clean": "rm -r dist/"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "gsap": "file:gsap-bonus.tgz",
+    "locomotive-scroll": "^4.1.1",
+    "parcel": "^2.0.0-beta.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-router-dom": "^5.2.0"
+  }
+}

@@ -1,0 +1,10 @@
+# node packages directories
+node_modules/
+
+# parcel directories
+.cache/
+.parcel-cache/
+dist/
+
+# macOS files
+.DS_Store
